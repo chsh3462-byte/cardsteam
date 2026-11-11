@@ -1,0 +1,134 @@
+[
+  {
+    "key": "v3-01",
+    "file": "v3-01.webp",
+    "columns": 5,
+    "rows": 5,
+    "firstId": 1,
+    "lastId": 25,
+    "width": 1254,
+    "height": 1254,
+    "bytes": 587134
+  },
+  {
+    "key": "v3-02",
+    "file": "v3-02.webp",
+    "columns": 5,
+    "rows": 5,
+    "firstId": 26,
+    "lastId": 50,
+    "width": 1254,
+    "height": 1254,
+    "bytes": 585996
+  },
+  {
+    "key": "v3-03",
+    "file": "v3-03.webp",
+    "columns": 5,
+    "rows": 5,
+    "firstId": 51,
+    "lastId": 75,
+    "width": 1254,
+    "height": 1254,
+    "bytes": 633996
+  },
+  {
+    "key": "v3-04",
+    "file": "v3-04.webp",
+    "columns": 5,
+    "rows": 5,
+    "firstId": 76,
+    "lastId": 100,
+    "width": 1254,
+    "height": 1254,
+    "bytes": 575308
+  },
+  {
+    "key": "v3-05",
+    "file": "v3-05.webp",
+    "columns": 5,
+    "rows": 5,
+    "firstId": 101,
+    "lastId": 125,
+    "width": 1254,
+    "height": 1254,
+    "bytes": 542622
+  },
+  {
+    "key": "v3-06",
+    "file": "v3-06.webp",
+    "columns": 5,
+    "rows": 5,
+    "firstId": 126,
+    "lastId": 150,
+    "width": 1254,
+    "height": 1254,
+    "bytes": 605878
+  },
+  {
+    "key": "v3-07",
+    "file": "v3-07.webp",
+    "columns": 5,
+    "rows": 5,
+    "firstId": 151,
+    "lastId": 175,
+    "width": 1254,
+    "height": 1254,
+    "bytes": 553268
+  },
+  {
+    "key": "v3-08",
+    "file": "v3-08.webp",
+    "columns": 5,
+    "rows": 5,
+    "firstId": 176,
+    "lastId": 200,
+    "width": 1254,
+    "height": 1254,
+    "bytes": 568626
+  },
+  {
+    "key": "v3-09",
+    "file": "v3-09.webp",
+    "columns": 5,
+    "rows": 5,
+    "firstId": 201,
+    "lastId": 225,
+    "width": 1254,
+    "height": 1254,
+    "bytes": 497208
+  },
+  {
+    "key": "v3-10",
+    "file": "v3-10.webp",
+    "columns": 5,
+    "rows": 5,
+    "firstId": 226,
+    "lastId": 250,
+    "width": 1254,
+    "height": 1254,
+    "bytes": 540342
+  },
+  {
+    "key": "v3-11",
+    "file": "v3-11.webp",
+    "columns": 5,
+    "rows": 5,
+    "firstId": 251,
+    "lastId": 275,
+    "width": 1254,
+    "height": 1254,
+    "bytes": 580540
+  },
+  {
+    "key": "v3-12",
+    "file": "v3-12.webp",
+    "columns": 5,
+    "rows": 5,
+    "firstId": 276,
+    "lastId": 300,
+    "width": 1254,
+    "height": 1254,
+    "bytes": 551506
+  }
+]

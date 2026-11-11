@@ -1,0 +1,2402 @@
+[
+  {
+    "id": 1,
+    "name": "서리뿔 사슴왕",
+    "category": "unit",
+    "subject": "a majestic ice-antler elk on a frozen lake",
+    "artSet": "v3-01",
+    "art": 0
+  },
+  {
+    "id": 2,
+    "name": "백야의 방패녀",
+    "category": "unit",
+    "subject": "a silver-haired shield maiden beneath aurora",
+    "artSet": "v3-01",
+    "art": 1
+  },
+  {
+    "id": 3,
+    "name": "눈꽃 창지기",
+    "category": "unit",
+    "subject": "a spear sentinel in a blizzard",
+    "artSet": "v3-01",
+    "art": 2
+  },
+  {
+    "id": 4,
+    "name": "빙하거북 성채",
+    "category": "unit",
+    "subject": "a colossal glacier turtle carrying a ruined fort",
+    "artSet": "v3-01",
+    "art": 3
+  },
+  {
+    "id": 5,
+    "name": "푸른늑대 계약수",
+    "category": "unit",
+    "subject": "a blue spirit wolf crossing an icy bridge",
+    "artSet": "v3-01",
+    "art": 4
+  },
+  {
+    "id": 6,
+    "name": "서리깃 올빼미",
+    "category": "unit",
+    "subject": "a white owl with crystal feathers inside a ruined observatory",
+    "artSet": "v3-01",
+    "art": 5
+  },
+  {
+    "id": 7,
+    "name": "북풍의 도끼병",
+    "category": "unit",
+    "subject": "a fur-cloaked axe warrior on a windswept cliff",
+    "artSet": "v3-01",
+    "art": 6
+  },
+  {
+    "id": 8,
+    "name": "얼음종 수도승",
+    "category": "unit",
+    "subject": "an ice bell monk striking a suspended bell",
+    "artSet": "v3-01",
+    "art": 7
+  },
+  {
+    "id": 9,
+    "name": "설원의 눈표범",
+    "category": "unit",
+    "subject": "a snow leopard crouching on rune stones",
+    "artSet": "v3-01",
+    "art": 8
+  },
+  {
+    "id": 10,
+    "name": "백은의 기수",
+    "category": "unit",
+    "subject": "a silver rider on an armored mountain goat",
+    "artSet": "v3-01",
+    "art": 9
+  },
+  {
+    "id": 11,
+    "name": "유빙의 골렘",
+    "category": "unit",
+    "subject": "a drifting ice golem rising from black water",
+    "artSet": "v3-01",
+    "art": 10
+  },
+  {
+    "id": 12,
+    "name": "극광의 여사제",
+    "category": "unit",
+    "subject": "an aurora priestess weaving ribbons of northern light",
+    "artSet": "v3-01",
+    "art": 11
+  },
+  {
+    "id": 13,
+    "name": "수정뿔 산양",
+    "category": "unit",
+    "subject": "a crystal horn ram leaping between ice pillars",
+    "artSet": "v3-01",
+    "art": 12
+  },
+  {
+    "id": 14,
+    "name": "서릿발 전령",
+    "category": "unit",
+    "subject": "a winged frost courier holding a sealed scroll",
+    "artSet": "v3-01",
+    "art": 13
+  },
+  {
+    "id": 15,
+    "name": "겨울나무 정령",
+    "category": "unit",
+    "subject": "a walking winter tree with sapphire roots",
+    "artSet": "v3-01",
+    "art": 14
+  },
+  {
+    "id": 16,
+    "name": "빙정의 검무희",
+    "category": "unit",
+    "subject": "a crystal blade dancer on a frozen waterfall",
+    "artSet": "v3-01",
+    "art": 15
+  },
+  {
+    "id": 17,
+    "name": "북극성 수호조",
+    "category": "unit",
+    "subject": "a polar star bird circling an ice spire",
+    "artSet": "v3-01",
+    "art": 16
+  },
+  {
+    "id": 18,
+    "name": "설화의 장궁수",
+    "category": "unit",
+    "subject": "a longbow archer on a snowy pine branch",
+    "artSet": "v3-01",
+    "art": 17
+  },
+  {
+    "id": 19,
+    "name": "얼음사자 렘",
+    "category": "unit",
+    "subject": "an ice-maned lion roaring before a glacier gate",
+    "artSet": "v3-01",
+    "art": 18
+  },
+  {
+    "id": 20,
+    "name": "흰까마귀 길잡이",
+    "category": "unit",
+    "subject": "a white raven guiding lanterns through the storm",
+    "artSet": "v3-01",
+    "art": 19
+  },
+  {
+    "id": 21,
+    "name": "한빙의 쇠사슬병",
+    "category": "unit",
+    "subject": "a chain warrior dragging a frozen anchor",
+    "artSet": "v3-01",
+    "art": 20
+  },
+  {
+    "id": 22,
+    "name": "눈보라 여왕나방",
+    "category": "unit",
+    "subject": "a queen moth with snowflake patterned wings",
+    "artSet": "v3-01",
+    "art": 21
+  },
+  {
+    "id": 23,
+    "name": "깨진빙벽 거인",
+    "category": "unit",
+    "subject": "an icewall giant with a glowing crack through its chest",
+    "artSet": "v3-01",
+    "art": 22
+  },
+  {
+    "id": 24,
+    "name": "동토의 순례자",
+    "category": "unit",
+    "subject": "a tundra pilgrim carrying a small blue flame",
+    "artSet": "v3-01",
+    "art": 23
+  },
+  {
+    "id": 25,
+    "name": "얼음심장 용사",
+    "category": "unit",
+    "subject": "a warrior whose transparent chest holds a frozen heart",
+    "artSet": "v3-01",
+    "art": 24
+  },
+  {
+    "id": 26,
+    "name": "잿불갈기 사자",
+    "category": "unit",
+    "subject": "an ember mane lion on volcanic stairs",
+    "artSet": "v3-02",
+    "art": 0
+  },
+  {
+    "id": 27,
+    "name": "용광로 방패병",
+    "category": "unit",
+    "subject": "a furnace shield soldier defending a forge",
+    "artSet": "v3-02",
+    "art": 1
+  },
+  {
+    "id": 28,
+    "name": "불씨새 화린",
+    "category": "unit",
+    "subject": "a tiny fiery bird nesting in a brass brazier",
+    "artSet": "v3-02",
+    "art": 2
+  },
+  {
+    "id": 29,
+    "name": "홍련의 창기병",
+    "category": "unit",
+    "subject": "a crimson lancer charging through ash",
+    "artSet": "v3-02",
+    "art": 3
+  },
+  {
+    "id": 30,
+    "name": "숯검은 곰왕",
+    "category": "unit",
+    "subject": "a charcoal bear with glowing lava scars",
+    "artSet": "v3-02",
+    "art": 4
+  },
+  {
+    "id": 31,
+    "name": "화산거북 수호수",
+    "category": "unit",
+    "subject": "a volcanic tortoise with molten shell",
+    "artSet": "v3-02",
+    "art": 5
+  },
+  {
+    "id": 32,
+    "name": "붉은망치 대장장이",
+    "category": "unit",
+    "subject": "a red hammer blacksmith forging a rune sword",
+    "artSet": "v3-02",
+    "art": 6
+  },
+  {
+    "id": 33,
+    "name": "타오른 돛의 선장",
+    "category": "unit",
+    "subject": "a ghost captain beneath burning sails",
+    "artSet": "v3-02",
+    "art": 7
+  },
+  {
+    "id": 34,
+    "name": "재의 망토술사",
+    "category": "unit",
+    "subject": "an ash cloak sorcerer summoning black sparks",
+    "artSet": "v3-02",
+    "art": 8
+  },
+  {
+    "id": 35,
+    "name": "황금뿔 화염소",
+    "category": "unit",
+    "subject": "a golden horn fire bull pawing molten ground",
+    "artSet": "v3-02",
+    "art": 9
+  },
+  {
+    "id": 36,
+    "name": "등불꼬리 여우",
+    "category": "unit",
+    "subject": "a fox with five lantern tails in a firelit grove",
+    "artSet": "v3-02",
+    "art": 10
+  },
+  {
+    "id": 37,
+    "name": "화륜의 수레꾼",
+    "category": "unit",
+    "subject": "a charioteer driving wheels of flame",
+    "artSet": "v3-02",
+    "art": 11
+  },
+  {
+    "id": 38,
+    "name": "진홍석 골렘",
+    "category": "unit",
+    "subject": "a garnet golem waking in a crystal furnace",
+    "artSet": "v3-02",
+    "art": 12
+  },
+  {
+    "id": 39,
+    "name": "횃불의 수호녀",
+    "category": "unit",
+    "subject": "a torch bearing guardian at a dark temple door",
+    "artSet": "v3-02",
+    "art": 13
+  },
+  {
+    "id": 40,
+    "name": "불깃의 전쟁매",
+    "category": "unit",
+    "subject": "a war falcon with burning feathers over a battlefield",
+    "artSet": "v3-02",
+    "art": 14
+  },
+  {
+    "id": 41,
+    "name": "붉은비늘 도롱뇽",
+    "category": "unit",
+    "subject": "a giant red scaled salamander on hot coals",
+    "artSet": "v3-02",
+    "art": 15
+  },
+  {
+    "id": 42,
+    "name": "검댕의 연금사",
+    "category": "unit",
+    "subject": "a soot covered alchemist opening a fire vial",
+    "artSet": "v3-02",
+    "art": 16
+  },
+  {
+    "id": 43,
+    "name": "불꽃발굽 준마",
+    "category": "unit",
+    "subject": "a flame hoof stallion running across lava",
+    "artSet": "v3-02",
+    "art": 17
+  },
+  {
+    "id": 44,
+    "name": "태양창의 기사",
+    "category": "unit",
+    "subject": "a sun spear knight against an eclipsed sun",
+    "artSet": "v3-02",
+    "art": 18
+  },
+  {
+    "id": 45,
+    "name": "용암갑옷 거한",
+    "category": "unit",
+    "subject": "a massive molten armor brute crossing a bridge",
+    "artSet": "v3-02",
+    "art": 19
+  },
+  {
+    "id": 46,
+    "name": "연기의 은둔자",
+    "category": "unit",
+    "subject": "a smoke hermit forming a dragon from incense",
+    "artSet": "v3-02",
+    "art": 20
+  },
+  {
+    "id": 47,
+    "name": "잿빛왕관 군주",
+    "category": "unit",
+    "subject": "an ash crowned lord on a basalt throne",
+    "artSet": "v3-02",
+    "art": 21
+  },
+  {
+    "id": 48,
+    "name": "홍염의 북잡이",
+    "category": "unit",
+    "subject": "a fire drummer surrounded by dancing sparks",
+    "artSet": "v3-02",
+    "art": 22
+  },
+  {
+    "id": 49,
+    "name": "유황꽃 정령",
+    "category": "unit",
+    "subject": "a sulfur flower spirit blooming in a crater",
+    "artSet": "v3-02",
+    "art": 23
+  },
+  {
+    "id": 50,
+    "name": "마지막불씨 봉황",
+    "category": "unit",
+    "subject": "a phoenix emerging from one final glowing ember",
+    "artSet": "v3-02",
+    "art": 24
+  },
+  {
+    "id": 51,
+    "name": "비취뿌리 거목왕",
+    "category": "unit",
+    "subject": "an ancient jade rooted tree king with a moss throne",
+    "artSet": "v3-03",
+    "art": 0
+  },
+  {
+    "id": 52,
+    "name": "이끼갑옷 도끼수",
+    "category": "unit",
+    "subject": "a moss armored axe fighter among ruins",
+    "artSet": "v3-03",
+    "art": 1
+  },
+  {
+    "id": 53,
+    "name": "달꽃사슴 미엘",
+    "category": "unit",
+    "subject": "a moonflower deer drinking from a silver pool",
+    "artSet": "v3-03",
+    "art": 2
+  },
+  {
+    "id": 54,
+    "name": "가시관의 여전사",
+    "category": "unit",
+    "subject": "a thorn crowned warrior carrying a vine shield",
+    "artSet": "v3-03",
+    "art": 3
+  },
+  {
+    "id": 55,
+    "name": "초록눈 산림늑대",
+    "category": "unit",
+    "subject": "a green eyed forest wolf between giant roots",
+    "artSet": "v3-03",
+    "art": 4
+  },
+  {
+    "id": 56,
+    "name": "버섯등 거북",
+    "category": "unit",
+    "subject": "a turtle carrying glowing mushrooms",
+    "artSet": "v3-03",
+    "art": 5
+  },
+  {
+    "id": 57,
+    "name": "숲비의 무녀",
+    "category": "unit",
+    "subject": "a forest rain shaman beneath giant leaves",
+    "artSet": "v3-03",
+    "art": 6
+  },
+  {
+    "id": 58,
+    "name": "금빛벌집 곰",
+    "category": "unit",
+    "subject": "a bear protecting a golden beehive",
+    "artSet": "v3-03",
+    "art": 7
+  },
+  {
+    "id": 59,
+    "name": "덩굴창 잠행자",
+    "category": "unit",
+    "subject": "a vine spear stalker hiding in foliage",
+    "artSet": "v3-03",
+    "art": 8
+  },
+  {
+    "id": 60,
+    "name": "자작나무 골렘",
+    "category": "unit",
+    "subject": "a birch wood golem with a carved glowing face",
+    "artSet": "v3-03",
+    "art": 9
+  },
+  {
+    "id": 61,
+    "name": "새싹의 작은용",
+    "category": "unit",
+    "subject": "a tiny sprout dragon guarding an acorn",
+    "artSet": "v3-03",
+    "art": 10
+  },
+  {
+    "id": 62,
+    "name": "수액의 치유사",
+    "category": "unit",
+    "subject": "a healer pouring luminous amber sap",
+    "artSet": "v3-03",
+    "art": 11
+  },
+  {
+    "id": 63,
+    "name": "장미날개 나방",
+    "category": "unit",
+    "subject": "a rose wing moth over a ruined fountain",
+    "artSet": "v3-03",
+    "art": 12
+  },
+  {
+    "id": 64,
+    "name": "철쭉의 장궁녀",
+    "category": "unit",
+    "subject": "an azalea archer drawing a living branch bow",
+    "artSet": "v3-03",
+    "art": 13
+  },
+  {
+    "id": 65,
+    "name": "바위꽃 산양",
+    "category": "unit",
+    "subject": "a rockflower goat on a spring mountainside",
+    "artSet": "v3-03",
+    "art": 14
+  },
+  {
+    "id": 66,
+    "name": "숲심장 파수꾼",
+    "category": "unit",
+    "subject": "a guardian carrying a tree heart crystal",
+    "artSet": "v3-03",
+    "art": 15
+  },
+  {
+    "id": 67,
+    "name": "호박눈 올빼미",
+    "category": "unit",
+    "subject": "an amber eyed owl inside a hollow oak",
+    "artSet": "v3-03",
+    "art": 16
+  },
+  {
+    "id": 68,
+    "name": "들꽃의 기수",
+    "category": "unit",
+    "subject": "a wildflower rider on a giant hare",
+    "artSet": "v3-03",
+    "art": 17
+  },
+  {
+    "id": 69,
+    "name": "가시등 멧돼지",
+    "category": "unit",
+    "subject": "a thorn backed boar breaking through brambles",
+    "artSet": "v3-03",
+    "art": 18
+  },
+  {
+    "id": 70,
+    "name": "연꽃방패 무희",
+    "category": "unit",
+    "subject": "a lotus shield dancer on a marsh platform",
+    "artSet": "v3-03",
+    "art": 19
+  },
+  {
+    "id": 71,
+    "name": "푸른포자 현자",
+    "category": "unit",
+    "subject": "a blue spore sage in a mushroom library",
+    "artSet": "v3-03",
+    "art": 20
+  },
+  {
+    "id": 72,
+    "name": "비밀정원 표범",
+    "category": "unit",
+    "subject": "a garden panther with orchid markings",
+    "artSet": "v3-03",
+    "art": 21
+  },
+  {
+    "id": 73,
+    "name": "밤이슬 소환사",
+    "category": "unit",
+    "subject": "a night dew summoner collecting glowing droplets",
+    "artSet": "v3-03",
+    "art": 22
+  },
+  {
+    "id": 74,
+    "name": "열매왕관 여왕",
+    "category": "unit",
+    "subject": "a berry crowned queen with an ivy mantle",
+    "artSet": "v3-03",
+    "art": 23
+  },
+  {
+    "id": 75,
+    "name": "만개한 뿌리룡",
+    "category": "unit",
+    "subject": "a flowering root dragon encircling a forest shrine",
+    "artSet": "v3-03",
+    "art": 24
+  },
+  {
+    "id": 76,
+    "name": "진주턱 해룡",
+    "category": "unit",
+    "subject": "a pearl jaw sea dragon rising through foam",
+    "artSet": "v3-04",
+    "art": 0
+  },
+  {
+    "id": 77,
+    "name": "청파도의 삼지창수",
+    "category": "unit",
+    "subject": "a trident warrior on a wave covered pier",
+    "artSet": "v3-04",
+    "art": 1
+  },
+  {
+    "id": 78,
+    "name": "산호왕관 여사제",
+    "category": "unit",
+    "subject": "a coral crowned priestess beside a tidal altar",
+    "artSet": "v3-04",
+    "art": 2
+  },
+  {
+    "id": 79,
+    "name": "물거울 백조",
+    "category": "unit",
+    "subject": "a water mirror swan on a midnight lake",
+    "artSet": "v3-04",
+    "art": 3
+  },
+  {
+    "id": 80,
+    "name": "심해등 아귀",
+    "category": "unit",
+    "subject": "a deep sea anglerfish with a lantern shrine lure",
+    "artSet": "v3-04",
+    "art": 4
+  },
+  {
+    "id": 81,
+    "name": "비취조개 수호자",
+    "category": "unit",
+    "subject": "a jade shell guardian opening a pearl shield",
+    "artSet": "v3-04",
+    "art": 5
+  },
+  {
+    "id": 82,
+    "name": "해무의 도검사",
+    "category": "unit",
+    "subject": "a sea fog swordsman on a ghost ship",
+    "artSet": "v3-04",
+    "art": 6
+  },
+  {
+    "id": 83,
+    "name": "유리비늘 잉어",
+    "category": "unit",
+    "subject": "a glass scaled koi flying over a river gate",
+    "artSet": "v3-04",
+    "art": 7
+  },
+  {
+    "id": 84,
+    "name": "푸른닻의 용병",
+    "category": "unit",
+    "subject": "a mercenary wielding a huge blue anchor",
+    "artSet": "v3-04",
+    "art": 8
+  },
+  {
+    "id": 85,
+    "name": "해초갈기 해마",
+    "category": "unit",
+    "subject": "a giant seaweed mane seahorse among ruins",
+    "artSet": "v3-04",
+    "art": 9
+  },
+  {
+    "id": 86,
+    "name": "검은조수 수도사",
+    "category": "unit",
+    "subject": "a black tide monk shaping a water ring",
+    "artSet": "v3-04",
+    "art": 10
+  },
+  {
+    "id": 87,
+    "name": "진주날개 가오리",
+    "category": "unit",
+    "subject": "a pearl wing manta gliding over submerged towers",
+    "artSet": "v3-04",
+    "art": 11
+  },
+  {
+    "id": 88,
+    "name": "소용돌이 창병",
+    "category": "unit",
+    "subject": "a whirlpool spearman on spiral waters",
+    "artSet": "v3-04",
+    "art": 12
+  },
+  {
+    "id": 89,
+    "name": "별모래 거북",
+    "category": "unit",
+    "subject": "a star sand turtle with a beach on its shell",
+    "artSet": "v3-04",
+    "art": 13
+  },
+  {
+    "id": 90,
+    "name": "얼굴없는 잠수자",
+    "category": "unit",
+    "subject": "a faceless diver in an ancient rune diving suit",
+    "artSet": "v3-04",
+    "art": 14
+  },
+  {
+    "id": 91,
+    "name": "바다종의 고래",
+    "category": "unit",
+    "subject": "a whale carrying a ringing ocean bell",
+    "artSet": "v3-04",
+    "art": 15
+  },
+  {
+    "id": 92,
+    "name": "푸른잉크 문어",
+    "category": "unit",
+    "subject": "a blue ink octopus painting luminous sigils",
+    "artSet": "v3-04",
+    "art": 16
+  },
+  {
+    "id": 93,
+    "name": "파도깃 갈매기왕",
+    "category": "unit",
+    "subject": "a great wave feather gull above storm cliffs",
+    "artSet": "v3-04",
+    "art": 17
+  },
+  {
+    "id": 94,
+    "name": "심연의 뱀장어",
+    "category": "unit",
+    "subject": "an abyssal eel winding through a sunken crown",
+    "artSet": "v3-04",
+    "art": 18
+  },
+  {
+    "id": 95,
+    "name": "조개갑옷 대장",
+    "category": "unit",
+    "subject": "a shell armor captain rallying sea spirits",
+    "artSet": "v3-04",
+    "art": 19
+  },
+  {
+    "id": 96,
+    "name": "해류의 쌍검녀",
+    "category": "unit",
+    "subject": "a twin blade tide dancer between water columns",
+    "artSet": "v3-04",
+    "art": 20
+  },
+  {
+    "id": 97,
+    "name": "모래시계 해파리",
+    "category": "unit",
+    "subject": "an hourglass jellyfish glowing in dark water",
+    "artSet": "v3-04",
+    "art": 21
+  },
+  {
+    "id": 98,
+    "name": "물안개 유니콘",
+    "category": "unit",
+    "subject": "a mist unicorn beside a reed covered river",
+    "artSet": "v3-04",
+    "art": 22
+  },
+  {
+    "id": 99,
+    "name": "밤바다 인어술사",
+    "category": "unit",
+    "subject": "a night sea merfolk caster holding a moon pearl",
+    "artSet": "v3-04",
+    "art": 23
+  },
+  {
+    "id": 100,
+    "name": "파도왕의 돌고래",
+    "category": "unit",
+    "subject": "a dolphin made of crashing waves at a coral palace",
+    "artSet": "v3-04",
+    "art": 24
+  },
+  {
+    "id": 101,
+    "name": "월식낫 사냥꾼",
+    "category": "unit",
+    "subject": "an eclipse scythe hunter beneath a blood moon",
+    "artSet": "v3-05",
+    "art": 0
+  },
+  {
+    "id": 102,
+    "name": "보랏빛 묘지기사",
+    "category": "unit",
+    "subject": "a violet grave knight with spectral armor",
+    "artSet": "v3-05",
+    "art": 1
+  },
+  {
+    "id": 103,
+    "name": "거울뿔 흑사슴",
+    "category": "unit",
+    "subject": "a black deer with mirror antlers in a moonlit graveyard",
+    "artSet": "v3-05",
+    "art": 2
+  },
+  {
+    "id": 104,
+    "name": "유령촛불 사서",
+    "category": "unit",
+    "subject": "a ghost candle librarian in a ruined archive",
+    "artSet": "v3-05",
+    "art": 3
+  },
+  {
+    "id": 105,
+    "name": "밤장미 흡혈나방",
+    "category": "unit",
+    "subject": "a night rose vampire moth over a crimson flower",
+    "artSet": "v3-05",
+    "art": 4
+  },
+  {
+    "id": 106,
+    "name": "검은깃 전쟁까마귀",
+    "category": "unit",
+    "subject": "a war raven bearing a broken silver sword",
+    "artSet": "v3-05",
+    "art": 5
+  },
+  {
+    "id": 107,
+    "name": "그림자 실타래녀",
+    "category": "unit",
+    "subject": "a shadow weaver pulling threads from silhouettes",
+    "artSet": "v3-05",
+    "art": 6
+  },
+  {
+    "id": 108,
+    "name": "공허가면 결투가",
+    "category": "unit",
+    "subject": "a masked void duelist in a moonlit courtyard",
+    "artSet": "v3-05",
+    "art": 7
+  },
+  {
+    "id": 109,
+    "name": "망각의 관지기",
+    "category": "unit",
+    "subject": "a coffin keeper with floating carved coffins",
+    "artSet": "v3-05",
+    "art": 8
+  },
+  {
+    "id": 110,
+    "name": "은빛송곳니 늑대",
+    "category": "unit",
+    "subject": "a silver fang wolf emerging from purple mist",
+    "artSet": "v3-05",
+    "art": 9
+  },
+  {
+    "id": 111,
+    "name": "달그림자 장궁수",
+    "category": "unit",
+    "subject": "a moonshadow archer on a cathedral roof",
+    "artSet": "v3-05",
+    "art": 10
+  },
+  {
+    "id": 112,
+    "name": "검은진주 골렘",
+    "category": "unit",
+    "subject": "a black pearl golem in a sunken crypt",
+    "artSet": "v3-05",
+    "art": 11
+  },
+  {
+    "id": 113,
+    "name": "영혼등 순례자",
+    "category": "unit",
+    "subject": "a pilgrim carrying three glowing soul lanterns",
+    "artSet": "v3-05",
+    "art": 12
+  },
+  {
+    "id": 114,
+    "name": "보랏빛 해골룡",
+    "category": "unit",
+    "subject": "a violet skeletal dragon above a ruined city",
+    "artSet": "v3-05",
+    "art": 13
+  },
+  {
+    "id": 115,
+    "name": "침묵의 종지기",
+    "category": "unit",
+    "subject": "a silent bell keeper with a covered face",
+    "artSet": "v3-05",
+    "art": 14
+  },
+  {
+    "id": 116,
+    "name": "달나방 예언자",
+    "category": "unit",
+    "subject": "a moon moth oracle holding a tiny lantern",
+    "artSet": "v3-05",
+    "art": 15
+  },
+  {
+    "id": 117,
+    "name": "빈왕좌의 검령",
+    "category": "unit",
+    "subject": "a sword spirit hovering above an empty throne",
+    "artSet": "v3-05",
+    "art": 16
+  },
+  {
+    "id": 118,
+    "name": "별없는 밤표범",
+    "category": "unit",
+    "subject": "a starless black panther with violet eyes",
+    "artSet": "v3-05",
+    "art": 17
+  },
+  {
+    "id": 119,
+    "name": "은사슬 원혼",
+    "category": "unit",
+    "subject": "a chained wraith breaking free from a stone seal",
+    "artSet": "v3-05",
+    "art": 18
+  },
+  {
+    "id": 120,
+    "name": "자수정 관문병",
+    "category": "unit",
+    "subject": "an amethyst gate sentinel with a key shaped spear",
+    "artSet": "v3-05",
+    "art": 19
+  },
+  {
+    "id": 121,
+    "name": "잃어버린 왕의 갑옷",
+    "category": "unit",
+    "subject": "an empty king armor walking through a ruined hall",
+    "artSet": "v3-05",
+    "art": 20
+  },
+  {
+    "id": 122,
+    "name": "꿈먹는 여우",
+    "category": "unit",
+    "subject": "a dream eating fox curled around a sleeping moon",
+    "artSet": "v3-05",
+    "art": 21
+  },
+  {
+    "id": 123,
+    "name": "황혼의 뿔피리수",
+    "category": "unit",
+    "subject": "a dusk horn blower summoning ghost riders",
+    "artSet": "v3-05",
+    "art": 22
+  },
+  {
+    "id": 124,
+    "name": "영원의 묘비수호수",
+    "category": "unit",
+    "subject": "a grave tree beast guarding ancient epitaphs",
+    "artSet": "v3-05",
+    "art": 23
+  },
+  {
+    "id": 125,
+    "name": "백골왕관 군주",
+    "category": "unit",
+    "subject": "a bone crowned sovereign on a spectral stag",
+    "artSet": "v3-05",
+    "art": 24
+  },
+  {
+    "id": 126,
+    "name": "황금날개 룬매",
+    "category": "unit",
+    "subject": "a golden wing runic hawk in a celestial forge",
+    "artSet": "v3-06",
+    "art": 0
+  },
+  {
+    "id": 127,
+    "name": "별자리 방패장",
+    "category": "unit",
+    "subject": "a constellation shield captain under a meteor sky",
+    "artSet": "v3-06",
+    "art": 1
+  },
+  {
+    "id": 128,
+    "name": "시계탑 올빼미왕",
+    "category": "unit",
+    "subject": "a clock tower owl king with brass rune wings",
+    "artSet": "v3-06",
+    "art": 2
+  },
+  {
+    "id": 129,
+    "name": "벼락갈기 군마",
+    "category": "unit",
+    "subject": "a thunder mane war horse leaping a broken bridge",
+    "artSet": "v3-06",
+    "art": 3
+  },
+  {
+    "id": 130,
+    "name": "태양고리 여사제",
+    "category": "unit",
+    "subject": "a sun ring priestess inside a floating temple",
+    "artSet": "v3-06",
+    "art": 4
+  },
+  {
+    "id": 131,
+    "name": "청동톱니 골렘",
+    "category": "unit",
+    "subject": "a bronze gear golem inscribed with ancient runes",
+    "artSet": "v3-06",
+    "art": 5
+  },
+  {
+    "id": 132,
+    "name": "은하창의 파수병",
+    "category": "unit",
+    "subject": "a galaxy spear sentry guarding a star gate",
+    "artSet": "v3-06",
+    "art": 6
+  },
+  {
+    "id": 133,
+    "name": "운명패의 곡예사",
+    "category": "unit",
+    "subject": "a fate token acrobat juggling luminous stones",
+    "artSet": "v3-06",
+    "art": 7
+  },
+  {
+    "id": 134,
+    "name": "금사슬 하늘사자",
+    "category": "unit",
+    "subject": "a sky lion with a golden chain mane",
+    "artSet": "v3-06",
+    "art": 8
+  },
+  {
+    "id": 135,
+    "name": "유성검 소년",
+    "category": "unit",
+    "subject": "a young warrior drawing a meteor blade",
+    "artSet": "v3-06",
+    "art": 9
+  },
+  {
+    "id": 136,
+    "name": "천문구의 현자",
+    "category": "unit",
+    "subject": "a sage inside rotating brass astronomical rings",
+    "artSet": "v3-06",
+    "art": 10
+  },
+  {
+    "id": 137,
+    "name": "룬망치 거인",
+    "category": "unit",
+    "subject": "a giant wielding a massive rune hammer",
+    "artSet": "v3-06",
+    "art": 11
+  },
+  {
+    "id": 138,
+    "name": "백금기수 루엔",
+    "category": "unit",
+    "subject": "a platinum rider on a great crane",
+    "artSet": "v3-06",
+    "art": 12
+  },
+  {
+    "id": 139,
+    "name": "별빛종 수호녀",
+    "category": "unit",
+    "subject": "a star bell guardian ringing a floating crystal bell",
+    "artSet": "v3-06",
+    "art": 13
+  },
+  {
+    "id": 140,
+    "name": "회중시계 수집가",
+    "category": "unit",
+    "subject": "a collector surrounded by enchanted pocket watches",
+    "artSet": "v3-06",
+    "art": 14
+  },
+  {
+    "id": 141,
+    "name": "빛실의 직조사",
+    "category": "unit",
+    "subject": "a light thread weaver creating a luminous cloak",
+    "artSet": "v3-06",
+    "art": 15
+  },
+  {
+    "id": 142,
+    "name": "황도궁 전령",
+    "category": "unit",
+    "subject": "a zodiac messenger riding a comet serpent",
+    "artSet": "v3-06",
+    "art": 16
+  },
+  {
+    "id": 143,
+    "name": "수정날개 용기사",
+    "category": "unit",
+    "subject": "a crystal wing dragon knight above golden clouds",
+    "artSet": "v3-06",
+    "art": 17
+  },
+  {
+    "id": 144,
+    "name": "번개발톱 독수리",
+    "category": "unit",
+    "subject": "an eagle with lightning talons diving over ruins",
+    "artSet": "v3-06",
+    "art": 18
+  },
+  {
+    "id": 145,
+    "name": "별조각의 사슴",
+    "category": "unit",
+    "subject": "a stag made of floating star fragments",
+    "artSet": "v3-06",
+    "art": 19
+  },
+  {
+    "id": 146,
+    "name": "청동천사 파수꾼",
+    "category": "unit",
+    "subject": "a bronze angel sentinel carrying a cracked halo",
+    "artSet": "v3-06",
+    "art": 20
+  },
+  {
+    "id": 147,
+    "name": "룬톱니 전차병",
+    "category": "unit",
+    "subject": "a rune gear charioteer charging through a war gate",
+    "artSet": "v3-06",
+    "art": 21
+  },
+  {
+    "id": 148,
+    "name": "거대한 별모래룡",
+    "category": "unit",
+    "subject": "a vast stardust dragon winding around a moon",
+    "artSet": "v3-06",
+    "art": 22
+  },
+  {
+    "id": 149,
+    "name": "해시계의 지휘관",
+    "category": "unit",
+    "subject": "a sundial commander directing golden banners",
+    "artSet": "v3-06",
+    "art": 23
+  },
+  {
+    "id": 150,
+    "name": "여섯빛 왕관룡",
+    "category": "unit",
+    "subject": "a six colored crown dragon over a magic circle",
+    "artSet": "v3-06",
+    "art": 24
+  },
+  {
+    "id": 151,
+    "name": "서릿발 꿰뚫기",
+    "category": "tactic",
+    "subject": "an ice spear piercing a hanging black shield",
+    "artSet": "v3-07",
+    "art": 0
+  },
+  {
+    "id": 152,
+    "name": "홍련 낙뢰",
+    "category": "tactic",
+    "subject": "a red lightning bolt splitting an obsidian obelisk",
+    "artSet": "v3-07",
+    "art": 1
+  },
+  {
+    "id": 153,
+    "name": "잎날의 회오리",
+    "category": "tactic",
+    "subject": "a whirlwind of razor leaves surrounding a stone target",
+    "artSet": "v3-07",
+    "art": 2
+  },
+  {
+    "id": 154,
+    "name": "파도 망치",
+    "category": "tactic",
+    "subject": "a gigantic water hammer smashing a ruined gate",
+    "artSet": "v3-07",
+    "art": 3
+  },
+  {
+    "id": 155,
+    "name": "월광 절단",
+    "category": "tactic",
+    "subject": "a crescent moon slash crossing a dark courtyard",
+    "artSet": "v3-07",
+    "art": 4
+  },
+  {
+    "id": 156,
+    "name": "별빛 연사",
+    "category": "tactic",
+    "subject": "five star arrows streaking through a cathedral",
+    "artSet": "v3-07",
+    "art": 5
+  },
+  {
+    "id": 157,
+    "name": "모래시계 폭발",
+    "category": "tactic",
+    "subject": "an exploding hourglass scattering golden sand",
+    "artSet": "v3-07",
+    "art": 6
+  },
+  {
+    "id": 158,
+    "name": "수정비 폭격",
+    "category": "tactic",
+    "subject": "crystal shards raining on a stone battlefield",
+    "artSet": "v3-07",
+    "art": 7
+  },
+  {
+    "id": 159,
+    "name": "불새의 돌진",
+    "category": "tactic",
+    "subject": "a firebird streaking through a line of spectral spears",
+    "artSet": "v3-07",
+    "art": 8
+  },
+  {
+    "id": 160,
+    "name": "얼음사슬 봉인",
+    "category": "tactic",
+    "subject": "icy chains binding a molten rune orb",
+    "artSet": "v3-07",
+    "art": 9
+  },
+  {
+    "id": 161,
+    "name": "숲뿌리 구속",
+    "category": "tactic",
+    "subject": "huge tree roots trapping an armored silhouette",
+    "artSet": "v3-07",
+    "art": 10
+  },
+  {
+    "id": 162,
+    "name": "심해의 압력",
+    "category": "tactic",
+    "subject": "a pressure sphere crushing a stone tower underwater",
+    "artSet": "v3-07",
+    "art": 11
+  },
+  {
+    "id": 163,
+    "name": "그림자 낙인",
+    "category": "tactic",
+    "subject": "a violet hand branding a glowing sigil in the air",
+    "artSet": "v3-07",
+    "art": 12
+  },
+  {
+    "id": 164,
+    "name": "태양의 관통",
+    "category": "tactic",
+    "subject": "a focused sun beam piercing three floating stone rings",
+    "artSet": "v3-07",
+    "art": 13
+  },
+  {
+    "id": 165,
+    "name": "차원의 박리",
+    "category": "tactic",
+    "subject": "space peeling apart like torn silver fabric",
+    "artSet": "v3-07",
+    "art": 14
+  },
+  {
+    "id": 166,
+    "name": "별가루 봉합",
+    "category": "tactic",
+    "subject": "starlight threads mending a cracked crystal heart",
+    "artSet": "v3-07",
+    "art": 15
+  },
+  {
+    "id": 167,
+    "name": "청류의 치유",
+    "category": "tactic",
+    "subject": "a ribbon of clear water healing a wounded spirit",
+    "artSet": "v3-07",
+    "art": 16
+  },
+  {
+    "id": 168,
+    "name": "새잎의 맹세",
+    "category": "tactic",
+    "subject": "a glowing sprout emerging between joined hands",
+    "artSet": "v3-07",
+    "art": 17
+  },
+  {
+    "id": 169,
+    "name": "금빛 방벽",
+    "category": "tactic",
+    "subject": "golden hexagonal barriers before a ruined fortress",
+    "artSet": "v3-07",
+    "art": 18
+  },
+  {
+    "id": 170,
+    "name": "달안개 은폐",
+    "category": "tactic",
+    "subject": "a silver moon fog hiding a company of banners",
+    "artSet": "v3-07",
+    "art": 19
+  },
+  {
+    "id": 171,
+    "name": "빙결 전선",
+    "category": "tactic",
+    "subject": "a wall of icy spears rising across a battlefield",
+    "artSet": "v3-07",
+    "art": 20
+  },
+  {
+    "id": 172,
+    "name": "용광로의 함성",
+    "category": "tactic",
+    "subject": "fiery sound waves expanding from a forge horn",
+    "artSet": "v3-07",
+    "art": 21
+  },
+  {
+    "id": 173,
+    "name": "고요의 파문",
+    "category": "tactic",
+    "subject": "a silent blue ripple flattening violent flames",
+    "artSet": "v3-07",
+    "art": 22
+  },
+  {
+    "id": 174,
+    "name": "가시꽃 진형",
+    "category": "tactic",
+    "subject": "a defensive circle of blooming thorn roses",
+    "artSet": "v3-07",
+    "art": 23
+  },
+  {
+    "id": 175,
+    "name": "무너지는 왕관",
+    "category": "tactic",
+    "subject": "a royal crown breaking into amethyst lightning",
+    "artSet": "v3-07",
+    "art": 24
+  },
+  {
+    "id": 176,
+    "name": "룬검의 합주",
+    "category": "tactic",
+    "subject": "seven rune swords forming a luminous spiral",
+    "artSet": "v3-08",
+    "art": 0
+  },
+  {
+    "id": 177,
+    "name": "서풍의 교대",
+    "category": "tactic",
+    "subject": "two spectral warriors exchanging places in green wind",
+    "artSet": "v3-08",
+    "art": 1
+  },
+  {
+    "id": 178,
+    "name": "영혼의 귀환문",
+    "category": "tactic",
+    "subject": "a spirit walking back through a silver door",
+    "artSet": "v3-08",
+    "art": 2
+  },
+  {
+    "id": 179,
+    "name": "불사조 재소환",
+    "category": "tactic",
+    "subject": "a phoenix rising from a burnt summoning parchment",
+    "artSet": "v3-08",
+    "art": 3
+  },
+  {
+    "id": 180,
+    "name": "기억의 복원",
+    "category": "tactic",
+    "subject": "scattered manuscript fragments reassembling in blue light",
+    "artSet": "v3-08",
+    "art": 4
+  },
+  {
+    "id": 181,
+    "name": "거울의 역류",
+    "category": "tactic",
+    "subject": "a red beam reflected backward by a violet mirror",
+    "artSet": "v3-08",
+    "art": 5
+  },
+  {
+    "id": 182,
+    "name": "별궤도 전환",
+    "category": "tactic",
+    "subject": "golden planetary orbits changing directions",
+    "artSet": "v3-08",
+    "art": 6
+  },
+  {
+    "id": 183,
+    "name": "절대영도의 손길",
+    "category": "tactic",
+    "subject": "a frozen hand stopping a falling meteor",
+    "artSet": "v3-08",
+    "art": 7
+  },
+  {
+    "id": 184,
+    "name": "녹슨 맹세 파괴",
+    "category": "tactic",
+    "subject": "rusted oath chains snapping in a burst of light",
+    "artSet": "v3-08",
+    "art": 8
+  },
+  {
+    "id": 185,
+    "name": "검은파도 소거",
+    "category": "tactic",
+    "subject": "a black tidal wave erasing luminous runes",
+    "artSet": "v3-08",
+    "art": 9
+  },
+  {
+    "id": 186,
+    "name": "운명의 재배열",
+    "category": "tactic",
+    "subject": "six carved fate stones rearranging over a magic circle",
+    "artSet": "v3-08",
+    "art": 10
+  },
+  {
+    "id": 187,
+    "name": "쌍성의 공명",
+    "category": "tactic",
+    "subject": "two opposing stars connected by a silver bridge",
+    "artSet": "v3-08",
+    "art": 11
+  },
+  {
+    "id": 188,
+    "name": "육면의 번뜩임",
+    "category": "tactic",
+    "subject": "a radiant six-faced crystal flashing inside a storm",
+    "artSet": "v3-08",
+    "art": 12
+  },
+  {
+    "id": 189,
+    "name": "넘치는 마력",
+    "category": "tactic",
+    "subject": "violet magic overflowing from a cracked chalice",
+    "artSet": "v3-08",
+    "art": 13
+  },
+  {
+    "id": 190,
+    "name": "마지막 수호선",
+    "category": "tactic",
+    "subject": "a lone golden barrier holding back a dark army",
+    "artSet": "v3-08",
+    "art": 14
+  },
+  {
+    "id": 191,
+    "name": "달빛 수확",
+    "category": "tactic",
+    "subject": "a silver scythe gathering drifting moon shards",
+    "artSet": "v3-08",
+    "art": 15
+  },
+  {
+    "id": 192,
+    "name": "붉은실 단절",
+    "category": "tactic",
+    "subject": "a red fate thread being severed by icy scissors",
+    "artSet": "v3-08",
+    "art": 16
+  },
+  {
+    "id": 193,
+    "name": "천둥의 호흡",
+    "category": "tactic",
+    "subject": "a dragon-shaped breath made of blue thunder",
+    "artSet": "v3-08",
+    "art": 17
+  },
+  {
+    "id": 194,
+    "name": "숲의 반격",
+    "category": "tactic",
+    "subject": "an entire forest raising luminous roots at an invading shadow",
+    "artSet": "v3-08",
+    "art": 18
+  },
+  {
+    "id": 195,
+    "name": "깊은바다 별똥",
+    "category": "tactic",
+    "subject": "a bright meteor sinking into a glowing abyss",
+    "artSet": "v3-08",
+    "art": 19
+  },
+  {
+    "id": 196,
+    "name": "룬석의 대진동",
+    "category": "tactic",
+    "subject": "a circle of standing stones vibrating with golden light",
+    "artSet": "v3-08",
+    "art": 20
+  },
+  {
+    "id": 197,
+    "name": "밤꽃의 폭풍",
+    "category": "tactic",
+    "subject": "a storm of dark petals and violet sparks",
+    "artSet": "v3-08",
+    "art": 21
+  },
+  {
+    "id": 198,
+    "name": "전쟁기수의 돌파",
+    "category": "tactic",
+    "subject": "a spectral banner rider breaking a crystal barricade",
+    "artSet": "v3-08",
+    "art": 22
+  },
+  {
+    "id": 199,
+    "name": "최후의 별방울",
+    "category": "tactic",
+    "subject": "one enormous star droplet falling into a silent pool",
+    "artSet": "v3-08",
+    "art": 23
+  },
+  {
+    "id": 200,
+    "name": "여명문 개방",
+    "category": "tactic",
+    "subject": "two ancient dawn gates opening onto brilliant white light",
+    "artSet": "v3-08",
+    "art": 24
+  },
+  {
+    "id": 201,
+    "name": "황금 육면석",
+    "category": "artifact",
+    "subject": "a golden six-sided rune die on velvet",
+    "artSet": "v3-09",
+    "art": 0
+  },
+  {
+    "id": 202,
+    "name": "무게추 운명석",
+    "category": "artifact",
+    "subject": "an iron weighted die with brass balancing rings",
+    "artSet": "v3-09",
+    "art": 1
+  },
+  {
+    "id": 203,
+    "name": "쌍둥이 마력석",
+    "category": "artifact",
+    "subject": "two intertwined blue crystal dice",
+    "artSet": "v3-09",
+    "art": 2
+  },
+  {
+    "id": 204,
+    "name": "서리눈금 끌",
+    "category": "artifact",
+    "subject": "an ice engraving chisel beside a carved die",
+    "artSet": "v3-09",
+    "art": 3
+  },
+  {
+    "id": 205,
+    "name": "태양석 연마구",
+    "category": "artifact",
+    "subject": "a sunstone polishing wheel with golden sparks",
+    "artSet": "v3-09",
+    "art": 4
+  },
+  {
+    "id": 206,
+    "name": "역행 모래시계",
+    "category": "artifact",
+    "subject": "an hourglass whose cyan sand flows upward",
+    "artSet": "v3-09",
+    "art": 5
+  },
+  {
+    "id": 207,
+    "name": "두번째 기회반지",
+    "category": "artifact",
+    "subject": "a silver ring with a tiny rotating die",
+    "artSet": "v3-09",
+    "art": 6
+  },
+  {
+    "id": 208,
+    "name": "균형추 목걸이",
+    "category": "artifact",
+    "subject": "a necklace with two balanced rune weights",
+    "artSet": "v3-09",
+    "art": 7
+  },
+  {
+    "id": 209,
+    "name": "홀수의 검은장갑",
+    "category": "artifact",
+    "subject": "a black glove embroidered with three moon dots",
+    "artSet": "v3-09",
+    "art": 8
+  },
+  {
+    "id": 210,
+    "name": "짝수의 은팔찌",
+    "category": "artifact",
+    "subject": "a silver bracelet formed of four linked gems",
+    "artSet": "v3-09",
+    "art": 9
+  },
+  {
+    "id": 211,
+    "name": "육성 프리즘",
+    "category": "artifact",
+    "subject": "a six-point crystal prism splitting light",
+    "artSet": "v3-09",
+    "art": 10
+  },
+  {
+    "id": 212,
+    "name": "룬각인 주사위함",
+    "category": "artifact",
+    "subject": "an ornate carved dice box with a luminous lining",
+    "artSet": "v3-09",
+    "art": 11
+  },
+  {
+    "id": 213,
+    "name": "북풍의 행운뿔",
+    "category": "artifact",
+    "subject": "a carved northern horn spilling blue sparks",
+    "artSet": "v3-09",
+    "art": 12
+  },
+  {
+    "id": 214,
+    "name": "달빛 눈금자",
+    "category": "artifact",
+    "subject": "a moonlit ruler etched with six runic marks",
+    "artSet": "v3-09",
+    "art": 13
+  },
+  {
+    "id": 215,
+    "name": "비취 운명나침반",
+    "category": "artifact",
+    "subject": "a jade compass whose needle points to a die",
+    "artSet": "v3-09",
+    "art": 14
+  },
+  {
+    "id": 216,
+    "name": "가시손잡이 재굴림봉",
+    "category": "artifact",
+    "subject": "a thorn handled wand turning a floating die",
+    "artSet": "v3-09",
+    "art": 15
+  },
+  {
+    "id": 217,
+    "name": "청동 연산륜",
+    "category": "artifact",
+    "subject": "a bronze rune calculation wheel in a stone shrine",
+    "artSet": "v3-09",
+    "art": 16
+  },
+  {
+    "id": 218,
+    "name": "별모래 저울",
+    "category": "artifact",
+    "subject": "a balance scale weighing stardust against a die",
+    "artSet": "v3-09",
+    "art": 17
+  },
+  {
+    "id": 219,
+    "name": "금실의 확률망",
+    "category": "artifact",
+    "subject": "a delicate gold thread net catching fate stones",
+    "artSet": "v3-09",
+    "art": 18
+  },
+  {
+    "id": 220,
+    "name": "서약의 수정잔",
+    "category": "artifact",
+    "subject": "a crystal oath cup filled with six lights",
+    "artSet": "v3-09",
+    "art": 19
+  },
+  {
+    "id": 221,
+    "name": "철벽의 룬방패",
+    "category": "artifact",
+    "subject": "a heavy rune shield resting against a fortress wall",
+    "artSet": "v3-09",
+    "art": 20
+  },
+  {
+    "id": 222,
+    "name": "얼음심장 흉갑",
+    "category": "artifact",
+    "subject": "a frost heart breastplate on a stone mannequin",
+    "artSet": "v3-09",
+    "art": 21
+  },
+  {
+    "id": 223,
+    "name": "홍련날개 망토",
+    "category": "artifact",
+    "subject": "a red flame feather cloak hanging in a forge",
+    "artSet": "v3-09",
+    "art": 22
+  },
+  {
+    "id": 224,
+    "name": "세계수 뿌리장화",
+    "category": "artifact",
+    "subject": "boots woven from ancient glowing tree roots",
+    "artSet": "v3-09",
+    "art": 23
+  },
+  {
+    "id": 225,
+    "name": "달거울 투구",
+    "category": "artifact",
+    "subject": "a polished moon mirror helmet on black cloth",
+    "artSet": "v3-09",
+    "art": 24
+  },
+  {
+    "id": 226,
+    "name": "별빛 매듭벨트",
+    "category": "artifact",
+    "subject": "a belt tied with seven luminous star knots",
+    "artSet": "v3-10",
+    "art": 0
+  },
+  {
+    "id": 227,
+    "name": "흑요석 가시갑주",
+    "category": "artifact",
+    "subject": "obsidian thorn armor displayed in a dark hall",
+    "artSet": "v3-10",
+    "art": 1
+  },
+  {
+    "id": 228,
+    "name": "진주파도 견갑",
+    "category": "artifact",
+    "subject": "shoulder armor shaped from pearl and waves",
+    "artSet": "v3-10",
+    "art": 2
+  },
+  {
+    "id": 229,
+    "name": "백금 수호부적",
+    "category": "artifact",
+    "subject": "a platinum guardian charm with a lion seal",
+    "artSet": "v3-10",
+    "art": 3
+  },
+  {
+    "id": 230,
+    "name": "푸른불꽃 방호석",
+    "category": "artifact",
+    "subject": "a blue flame ward stone inside a protective ring",
+    "artSet": "v3-10",
+    "art": 4
+  },
+  {
+    "id": 231,
+    "name": "용비늘 칼집",
+    "category": "artifact",
+    "subject": "a dragon scale scabbard holding a half-drawn sword",
+    "artSet": "v3-10",
+    "art": 5
+  },
+  {
+    "id": 232,
+    "name": "룬대장장이 망치",
+    "category": "artifact",
+    "subject": "an engraved master smith hammer on an anvil",
+    "artSet": "v3-10",
+    "art": 6
+  },
+  {
+    "id": 233,
+    "name": "새벽의 숫돌",
+    "category": "artifact",
+    "subject": "a dawn colored whetstone sharpening a glowing blade",
+    "artSet": "v3-10",
+    "art": 7
+  },
+  {
+    "id": 234,
+    "name": "천둥깃 화살통",
+    "category": "artifact",
+    "subject": "a quiver of thunder feather arrows",
+    "artSet": "v3-10",
+    "art": 8
+  },
+  {
+    "id": 235,
+    "name": "산호왕의 삼지창",
+    "category": "artifact",
+    "subject": "a coral king trident surrounded by tiny sea lights",
+    "artSet": "v3-10",
+    "art": 9
+  },
+  {
+    "id": 236,
+    "name": "자수정 의식단검",
+    "category": "artifact",
+    "subject": "an amethyst ritual dagger over a magic diagram",
+    "artSet": "v3-10",
+    "art": 10
+  },
+  {
+    "id": 237,
+    "name": "태양금의 창끝",
+    "category": "artifact",
+    "subject": "a golden sun spearhead on a ceremonial pedestal",
+    "artSet": "v3-10",
+    "art": 11
+  },
+  {
+    "id": 238,
+    "name": "월식의 작은낫",
+    "category": "artifact",
+    "subject": "a small eclipse sickle wrapped in silver cloth",
+    "artSet": "v3-10",
+    "art": 12
+  },
+  {
+    "id": 239,
+    "name": "서리거인의 도끼날",
+    "category": "artifact",
+    "subject": "an ice giant axe head in a frozen cavern",
+    "artSet": "v3-10",
+    "art": 13
+  },
+  {
+    "id": 240,
+    "name": "숲노래 활시위",
+    "category": "artifact",
+    "subject": "a living green bowstring humming between branches",
+    "artSet": "v3-10",
+    "art": 14
+  },
+  {
+    "id": 241,
+    "name": "붉은수액 포션",
+    "category": "artifact",
+    "subject": "a red sap potion bottle with a leaf stopper",
+    "artSet": "v3-10",
+    "art": 15
+  },
+  {
+    "id": 242,
+    "name": "푸른심해 성수",
+    "category": "artifact",
+    "subject": "a deep blue holy water flask with pearl chains",
+    "artSet": "v3-10",
+    "art": 16
+  },
+  {
+    "id": 243,
+    "name": "별가루 마나병",
+    "category": "artifact",
+    "subject": "a mana bottle containing a tiny star field",
+    "artSet": "v3-10",
+    "art": 17
+  },
+  {
+    "id": 244,
+    "name": "달꽃 연고함",
+    "category": "artifact",
+    "subject": "a moonflower salve box with silver petals",
+    "artSet": "v3-10",
+    "art": 18
+  },
+  {
+    "id": 245,
+    "name": "얼음열매 증류액",
+    "category": "artifact",
+    "subject": "a crystal vial containing glowing frost berries",
+    "artSet": "v3-10",
+    "art": 19
+  },
+  {
+    "id": 246,
+    "name": "불사조 재주머니",
+    "category": "artifact",
+    "subject": "a little pouch spilling luminous phoenix ash",
+    "artSet": "v3-10",
+    "art": 20
+  },
+  {
+    "id": 247,
+    "name": "영혼의 봉합바늘",
+    "category": "artifact",
+    "subject": "a luminous soul sewing needle and silver thread",
+    "artSet": "v3-10",
+    "art": 21
+  },
+  {
+    "id": 248,
+    "name": "황금꿀 생명잔",
+    "category": "artifact",
+    "subject": "a golden honey life chalice with bee engravings",
+    "artSet": "v3-10",
+    "art": 22
+  },
+  {
+    "id": 249,
+    "name": "세계수 씨앗병",
+    "category": "artifact",
+    "subject": "a glass jar containing a radiant world-tree seed",
+    "artSet": "v3-10",
+    "art": 23
+  },
+  {
+    "id": 250,
+    "name": "진주의 회복고리",
+    "category": "artifact",
+    "subject": "a healing pearl ring hovering over clear water",
+    "artSet": "v3-10",
+    "art": 24
+  },
+  {
+    "id": 251,
+    "name": "잃어버린 서약서",
+    "category": "artifact",
+    "subject": "an ancient oath scroll sealed with blue wax",
+    "artSet": "v3-11",
+    "art": 0
+  },
+  {
+    "id": 252,
+    "name": "별도서관 열쇠",
+    "category": "artifact",
+    "subject": "a star library key opening a floating book",
+    "artSet": "v3-11",
+    "art": 1
+  },
+  {
+    "id": 253,
+    "name": "돌아오는 깃펜",
+    "category": "artifact",
+    "subject": "a returning enchanted quill drawing a circular trail",
+    "artSet": "v3-11",
+    "art": 2
+  },
+  {
+    "id": 254,
+    "name": "소환사의 공명종",
+    "category": "artifact",
+    "subject": "a summoner bell surrounded by concentric rune rings",
+    "artSet": "v3-11",
+    "art": 3
+  },
+  {
+    "id": 255,
+    "name": "룬용병단 전쟁북",
+    "category": "artifact",
+    "subject": "a rune mercenary war drum with crossed bone sticks",
+    "artSet": "v3-11",
+    "art": 4
+  },
+  {
+    "id": 256,
+    "name": "백야의 신호등",
+    "category": "artifact",
+    "subject": "an aurora signal lantern on a snowy watchtower",
+    "artSet": "v3-11",
+    "art": 5
+  },
+  {
+    "id": 257,
+    "name": "심해의 부름조개",
+    "category": "artifact",
+    "subject": "a deep sea calling shell emitting a ghostly whale",
+    "artSet": "v3-11",
+    "art": 6
+  },
+  {
+    "id": 258,
+    "name": "전령매의 금호루라기",
+    "category": "artifact",
+    "subject": "a golden falcon whistle with tiny spreading wings",
+    "artSet": "v3-11",
+    "art": 7
+  },
+  {
+    "id": 259,
+    "name": "계약수의 사슬고리",
+    "category": "artifact",
+    "subject": "a broken beast contract chain glowing green",
+    "artSet": "v3-11",
+    "art": 8
+  },
+  {
+    "id": 260,
+    "name": "여섯문양 왕관",
+    "category": "artifact",
+    "subject": "a crown bearing six unique luminous rune stones",
+    "artSet": "v3-11",
+    "art": 9
+  },
+  {
+    "id": 261,
+    "name": "여섯번째 별의 예언",
+    "category": "oracle",
+    "subject": "six stars above a hooded oracle and a glowing sixth star",
+    "artSet": "v3-11",
+    "art": 10
+  },
+  {
+    "id": 262,
+    "name": "짝지어진 달의 징조",
+    "category": "oracle",
+    "subject": "two matching moons reflected in a silver lake",
+    "artSet": "v3-11",
+    "art": 11
+  },
+  {
+    "id": 263,
+    "name": "홀수불꽃의 계시",
+    "category": "oracle",
+    "subject": "three different flames rising from an oracle bowl",
+    "artSet": "v3-11",
+    "art": 12
+  },
+  {
+    "id": 264,
+    "name": "쌍둥이 눈금의 약속",
+    "category": "oracle",
+    "subject": "two matching dice above clasped spectral hands",
+    "artSet": "v3-11",
+    "art": 13
+  },
+  {
+    "id": 265,
+    "name": "큰눈금의 재앙",
+    "category": "oracle",
+    "subject": "a massive glowing die casting a dragon-shaped shadow",
+    "artSet": "v3-11",
+    "art": 14
+  },
+  {
+    "id": 266,
+    "name": "낮은별의 구원",
+    "category": "oracle",
+    "subject": "a small fallen star sheltered by a luminous hand",
+    "artSet": "v3-11",
+    "art": 15
+  },
+  {
+    "id": 267,
+    "name": "열번째 빛의 문",
+    "category": "oracle",
+    "subject": "ten floating lights forming an ancient gate",
+    "artSet": "v3-11",
+    "art": 16
+  },
+  {
+    "id": 268,
+    "name": "갈라진 확률의 길",
+    "category": "oracle",
+    "subject": "two roads splitting around a floating rune die",
+    "artSet": "v3-11",
+    "art": 17
+  },
+  {
+    "id": 269,
+    "name": "거울속 여섯눈",
+    "category": "oracle",
+    "subject": "six luminous eyes staring from a black mirror",
+    "artSet": "v3-11",
+    "art": 18
+  },
+  {
+    "id": 270,
+    "name": "침묵하는 한눈",
+    "category": "oracle",
+    "subject": "a single glowing pip in a silent stone chamber",
+    "artSet": "v3-11",
+    "art": 19
+  },
+  {
+    "id": 271,
+    "name": "불꽃짝의 징벌",
+    "category": "oracle",
+    "subject": "a pair of matching flame symbols striking a dark crown",
+    "artSet": "v3-11",
+    "art": 20
+  },
+  {
+    "id": 272,
+    "name": "서리홀수의 심판",
+    "category": "oracle",
+    "subject": "three icy pillars surrounding a spectral judge",
+    "artSet": "v3-11",
+    "art": 21
+  },
+  {
+    "id": 273,
+    "name": "넘친마력의 반향",
+    "category": "oracle",
+    "subject": "an overflowing mana pool reflecting an enormous spirit",
+    "artSet": "v3-11",
+    "art": 22
+  },
+  {
+    "id": 274,
+    "name": "운명도둑의 그림자",
+    "category": "oracle",
+    "subject": "a shadow hand stealing a glowing sixth pip",
+    "artSet": "v3-11",
+    "art": 23
+  },
+  {
+    "id": 275,
+    "name": "별눈금의 역전",
+    "category": "oracle",
+    "subject": "a dark and golden sky exchanging places around a die",
+    "artSet": "v3-11",
+    "art": 24
+  },
+  {
+    "id": 276,
+    "name": "육면왕의 귀환",
+    "category": "oracle",
+    "subject": "a spectral six-faced crown rising above a ruined throne",
+    "artSet": "v3-12",
+    "art": 0
+  },
+  {
+    "id": 277,
+    "name": "짝수의 수호문",
+    "category": "oracle",
+    "subject": "four rune gates shielding a sleeping spirit",
+    "artSet": "v3-12",
+    "art": 1
+  },
+  {
+    "id": 278,
+    "name": "홀수의 맹세문",
+    "category": "oracle",
+    "subject": "three warriors swearing around a triangular rune circle",
+    "artSet": "v3-12",
+    "art": 2
+  },
+  {
+    "id": 279,
+    "name": "같은눈의 공명진",
+    "category": "oracle",
+    "subject": "matching dice inside concentric ritual circles",
+    "artSet": "v3-12",
+    "art": 3
+  },
+  {
+    "id": 280,
+    "name": "거대한 합의 축복",
+    "category": "oracle",
+    "subject": "many tiny lights merging into a healing star",
+    "artSet": "v3-12",
+    "art": 4
+  },
+  {
+    "id": 281,
+    "name": "낮은합의 은신",
+    "category": "oracle",
+    "subject": "a small ring of dim dice hidden beneath a silver cloak",
+    "artSet": "v3-12",
+    "art": 5
+  },
+  {
+    "id": 282,
+    "name": "최고눈의 강탈",
+    "category": "oracle",
+    "subject": "a raven carrying a stolen radiant die from a tower",
+    "artSet": "v3-12",
+    "art": 6
+  },
+  {
+    "id": 283,
+    "name": "최저눈의 반란",
+    "category": "oracle",
+    "subject": "a tiny one-pip stone cracking a colossal crown",
+    "artSet": "v3-12",
+    "art": 7
+  },
+  {
+    "id": 284,
+    "name": "두개의 여섯달",
+    "category": "oracle",
+    "subject": "two six-pip moons over a midnight battlefield",
+    "artSet": "v3-12",
+    "art": 8
+  },
+  {
+    "id": 285,
+    "name": "네별의 장벽",
+    "category": "oracle",
+    "subject": "four luminous stars forming a protective diamond",
+    "artSet": "v3-12",
+    "art": 9
+  },
+  {
+    "id": 286,
+    "name": "붉은짝의 반격",
+    "category": "oracle",
+    "subject": "a crimson pair of fate stones reversing a lightning strike",
+    "artSet": "v3-12",
+    "art": 10
+  },
+  {
+    "id": 287,
+    "name": "푸른홀의 치유",
+    "category": "oracle",
+    "subject": "three blue rune droplets mending a spirit heart",
+    "artSet": "v3-12",
+    "art": 11
+  },
+  {
+    "id": 288,
+    "name": "서로다른 운명의 잎",
+    "category": "oracle",
+    "subject": "five differently shaped glowing leaves orbiting a die",
+    "artSet": "v3-12",
+    "art": 12
+  },
+  {
+    "id": 289,
+    "name": "잇따른 별들의 행렬",
+    "category": "oracle",
+    "subject": "five stars ascending along a curved stairway",
+    "artSet": "v3-12",
+    "art": 13
+  },
+  {
+    "id": 290,
+    "name": "정확한 열여덟빛",
+    "category": "oracle",
+    "subject": "eighteen small lights gathered in an oracle crystal sphere",
+    "artSet": "v3-12",
+    "art": 14
+  },
+  {
+    "id": 291,
+    "name": "눈금없는 침묵",
+    "category": "oracle",
+    "subject": "a blank die floating above a silenced magic circle",
+    "artSet": "v3-12",
+    "art": 15
+  },
+  {
+    "id": 292,
+    "name": "여섯눈의 포식자",
+    "category": "oracle",
+    "subject": "a spectral serpent swallowing a six-pip stone",
+    "artSet": "v3-12",
+    "art": 16
+  },
+  {
+    "id": 293,
+    "name": "짝빛의 재생나무",
+    "category": "oracle",
+    "subject": "a tree sprouting from two identical glowing seeds",
+    "artSet": "v3-12",
+    "art": 17
+  },
+  {
+    "id": 294,
+    "name": "홀빛의 시간문",
+    "category": "oracle",
+    "subject": "three moon shards opening a suspended time gate",
+    "artSet": "v3-12",
+    "art": 18
+  },
+  {
+    "id": 295,
+    "name": "가장높은 별의 낙하",
+    "category": "oracle",
+    "subject": "the brightest star falling toward a royal battlefield",
+    "artSet": "v3-12",
+    "art": 19
+  },
+  {
+    "id": 296,
+    "name": "조용한 세쌍의 예감",
+    "category": "oracle",
+    "subject": "three pairs of spectral footprints around a rune altar",
+    "artSet": "v3-12",
+    "art": 20
+  },
+  {
+    "id": 297,
+    "name": "다섯눈의 전쟁노래",
+    "category": "oracle",
+    "subject": "five luminous rune bells ringing above banners",
+    "artSet": "v3-12",
+    "art": 21
+  },
+  {
+    "id": 298,
+    "name": "쌍눈금의 귀환항",
+    "category": "oracle",
+    "subject": "two matching stones guiding a ghost ship home",
+    "artSet": "v3-12",
+    "art": 22
+  },
+  {
+    "id": 299,
+    "name": "마지막 리롤의 계시",
+    "category": "oracle",
+    "subject": "a cracked oracle orb revealing one turning die",
+    "artSet": "v3-12",
+    "art": 23
+  },
+  {
+    "id": 300,
+    "name": "새벽의 완전공명",
+    "category": "oracle",
+    "subject": "six distinct colored beams merging over a grand summoning circle",
+    "artSet": "v3-12",
+    "art": 24
+  }
+]
