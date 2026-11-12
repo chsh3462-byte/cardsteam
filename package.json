@@ -1,1 +1,1 @@
-{"name":"hex-havoc-duel","version":"4.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs","test":"node --test tests/*.test.mjs"}}
+{"name":"nal-muk-card","version":"5.0.0","private":true,"type":"module","scripts":{"build":"node build.mjs","test":"node --test tests/*.test.mjs"}}

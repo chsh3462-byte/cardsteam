@@ -9,7 +9,7 @@ export const PACK_TYPES={
 export const DUPLICATE_XP={R:10,SR:40,SSR:200};
 export function levelProgress(xp){let level=1,remaining=xp;while(remaining>=level*100){remaining-=level*100;level++;}return {level,current:remaining,needed:level*100,total:xp};}
 export function createProfile(now=Date.now()){return {schema:1,revision:0,owned:[...STARTER_CARD_IDS],points:0,xp:0,matches:0,packs:[{id:'starter',type:'starter',createdAt:now}],opened:[],purchases:[],rewards:{}};}
-export function profileView(p){return {revision:p.revision,owned:p.owned,points:p.points,xp:p.xp,level:levelProgress(p.xp),matches:p.matches,packs:p.packs,opened:p.opened.slice(-12).reverse()};}
+export function profileView(p){return {settings:p.settings||null,revision:p.revision,owned:p.owned,points:p.points,xp:p.xp,level:levelProgress(p.xp),matches:p.matches,packs:p.packs,opened:p.opened.slice(-12).reverse()};}
 export function ownedDeck(ids,p){const deck=validateDeck(ids);if(deck.some(id=>!p.owned.includes(id)))throw Error('아직 수집하지 않은 카드가 덱에 있습니다. 기본 덱 또는 보유 카드로 구성하세요.');return deck;}
 export function drawPack(type,rng=randomInt){const spec=PACK_TYPES[type];if(!spec)throw Error('알 수 없는 카드팩입니다.');return Array.from({length:spec.size},()=>{const roll=rng(10000),rarity=roll<spec.odds.R?'R':roll<spec.odds.R+spec.odds.SR?'SR':'SSR',pool=CARD_DATABASE.filter(c=>c.rarity===rarity);return pool[rng(pool.length)].id;});}
 export function openPack(p,packId,rng=randomInt,now=Date.now()){

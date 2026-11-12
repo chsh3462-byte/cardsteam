@@ -1,8 +1,8 @@
 import {createGame,applyAction,viewGame} from './core.js';
 import {createProfile,profileView,ownedDeck,openPack,buyPack,rewardMatch} from './progression.js';
-import {accountIdentity} from './identity.js';
+import {accountAction,gameAccount} from './accounts.js';
 const TTL=24*60*60*1000;
-const json=(value,status=200)=>new Response(JSON.stringify(value),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
+const json=(value,status=200,extra={})=>new Response(JSON.stringify(value),{status,headers:{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff',...extra}});
 const hex=bytes=>Array.from(bytes,x=>x.toString(16).padStart(2,'0')).join('');
 const token=()=>hex(crypto.getRandomValues(new Uint8Array(32)));
 const hash=async value=>hex(new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(value))));
@@ -40,9 +40,15 @@ export async function api(req,env){
    const origin=req.headers.get('Origin');if(origin&&origin!==new URL(req.url).origin)return json({error:'잘못된 요청 출처입니다.'},403);
    if(!req.headers.get('Content-Type')?.includes('application/json'))return json({error:'JSON 요청만 지원합니다.'},415);
   }
-  const identity=await accountIdentity(req,env);if(!identity)return json({error:'로그인 후 수집과 대전을 이용해 주세요.',signInPath:(!env.AUTH_MODE||env.AUTH_MODE==='sites')?'/signin-with-chatgpt':null},401);
-  const account=await hash(identity);
-  if(path==='/api/profile'&&req.method==='GET')return json({profile:profileView((await readProfile(env,account)).p)});
+  const authRoute=path.match(/^\/api\/auth\/(register|login|logout|recover)$/);
+  if(authRoute&&req.method==='POST'){const result=await accountAction(req,env,authRoute[1],await payload(req));const cookie=result.cookie;delete result.cookie;return json(result,200,{'Set-Cookie':cookie});}
+  const signedIn=await gameAccount(req,env);if(!signedIn)return json({error:'NAL-MUK-CARD 계정으로 로그인해 주세요.'},401);
+  const expectedAccount=req.headers.get('X-Nalmuk-Account');if(expectedAccount&&expectedAccount!==signedIn.user.id)return json({error:'이 브라우저의 로그인 계정이 바뀌었습니다. 다시 로그인해 주세요.'},401);
+  const account=signedIn.profileKey;
+  if(path==='/api/profile'&&req.method==='GET')return json({user:signedIn.user,profile:profileView((await readProfile(env,account)).p)});
+  if(path==='/api/profile/settings'&&req.method==='POST'){
+   const body=await payload(req);const result=await updateProfile(env,account,p=>{const deck=ownedDeck(body.deck,p);p.settings={deck,name:cleanName(body.name)};return {saved:true};});return json({profile:result.profile,saved:true});
+  }
   if(path==='/api/packs/open'&&req.method==='POST'){const body=await payload(req);const result=await updateProfile(env,account,p=>openPack(p,body.packId));return json({profile:result.profile,receipt:result.result});}
   if(path==='/api/packs/buy'&&req.method==='POST'){const body=await payload(req);const result=await updateProfile(env,account,p=>buyPack(p,body.type,body.requestId,body.revision));return json({profile:result.profile,purchase:result.result});}
   if(path==='/api/rooms'&&req.method==='POST'){
@@ -87,5 +93,5 @@ export async function api(req,env){
    return json(await roomResponse(room,seat,env));
   }
   return json({error:'지원하지 않는 요청입니다.'},405);
- }catch(e){if(e instanceof SyntaxError)return json({error:'요청 형식이 올바르지 않습니다.'},400);if(e.message?.startsWith('R2')||e.message?.includes('bucket'))return json({error:'대전 서버에 연결할 수 없습니다. 다시 시도해 주세요.'},503);return json({error:e.message||'요청을 처리할 수 없습니다.'},400);}
+ }catch(e){if(e instanceof SyntaxError)return json({error:'요청 형식이 올바르지 않습니다.'},400);if(e.message?.startsWith('R2')||e.message?.includes('bucket'))return json({error:'대전 서버에 연결할 수 없습니다. 다시 시도해 주세요.'},503);return json({error:e.message||'요청을 처리할 수 없습니다.'},[401,409,429].includes(e.status)?e.status:400);}
 }

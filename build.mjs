@@ -5,6 +5,7 @@ const read=name=>fs.readFile(new URL(name,import.meta.url),'utf8');
 const strip=s=>s.replace(/^import .+;\n/gm,'').replace(/^export \{[^}]+\};\n/gm,'').replace(/\bexport (?=(const|function|async function)\b)/g,'');
 const cards=strip(await read('src/cards.js')),core=strip(await read('src/core.js')),server=strip(await read('src/server.js'));
 const progression=strip(await read('src/progression.js')),identity=strip(await read('src/identity.js'));
+const accounts=strip(await read('src/accounts.js'));
 const artMeta={},artPayloads={};
 const manifest=JSON.parse(await read('assets/v3/manifest.json'));
 if(manifest.length!==12||CARD_DATABASE.length!==300)throw Error('All 12 artwork pages and 300 cards are required.');
@@ -19,10 +20,10 @@ for(const page of manifest){
 }
 if(occupied.size!==300)throw Error('Every card must own a distinct illustration.');
 const css=await read('src/style.css');
-const client=[cards,'const C=CARD_BY_ID;','const ART_ASSETS='+JSON.stringify(artMeta)+';',core,progression,strip(await read('src/invites.js')),await read('src/pixels.js'),await read('src/card-art.js'),await read('src/client.js'),await read('src/collection-ui.js')].join('\n');
+const client=[cards,'const C=CARD_BY_ID;','const ART_ASSETS='+JSON.stringify(artMeta)+';',core,progression,strip(await read('src/invites.js')),await read('src/pixels.js'),await read('src/card-art.js'),await read('src/client.js'),await read('src/collection-ui.js'),await read('src/account-ui.js')].join('\n');
 const html=(await read('src/index.html')).replace('/*STYLE*/',css).replace('/*CLIENT*/',client.replaceAll('</script','<\\/script'));
 const etag='"'+crypto.createHash('sha256').update(html).digest('hex').slice(0,24)+'"';
-const output=[cards,'const C=CARD_BY_ID;',core,progression,identity,server,'const HTML='+JSON.stringify(html)+';','const ART_PAYLOADS='+JSON.stringify(artPayloads)+';',`
+const output=[cards,'const C=CARD_BY_ID;',core,progression,identity,accounts,server,'const HTML='+JSON.stringify(html)+';','const ART_PAYLOADS='+JSON.stringify(artPayloads)+';',`
 const artBytes=new Map();
 export default {async fetch(request,env){
  const url=new URL(request.url);

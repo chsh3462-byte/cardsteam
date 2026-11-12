@@ -2,6 +2,7 @@
 const accessKeys=new Map();
 const decodeJWT=s=>Uint8Array.from(atob(s.replace(/-/g,'+').replace(/_/g,'/')),c=>c.charCodeAt(0));
 export async function accountIdentity(req,env){
+ if(env.AUTH_MODE==='game')return null;
  if(!env.AUTH_MODE||env.AUTH_MODE==='sites')return req.headers.get('oai-authenticated-user-id')||null;
  if(env.AUTH_MODE!=='cloudflare-access')throw Error('지원하지 않는 로그인 설정입니다.');
  const domain=env.ACCESS_TEAM_DOMAIN,aud=env.ACCESS_AUD;

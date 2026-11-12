@@ -10,3 +10,5 @@ test('Sites rejects anonymous; standalone ignores spoofed identity and validates
  const identity=async jwt=>accountIdentity(req({'Cf-Access-Jwt-Assertion':jwt}),env);
  try{assert.equal(await identity(await make()),'access:duel-test.cloudflareaccess.com:alice');for(const change of [{iss:'https://evil.test'},{aud:['other']},{exp:0},{exp:'9999999999'},{sub:''},{nbf:9999999999}])assert.equal(await identity(await make(change)),null);assert.equal(await identity(await make({},'none')),null);const jwt=await make();const parts=jwt.split('.');parts[1]=b64({sub:'admin',iss:'https://duel-test.cloudflareaccess.com',aud:['audience-id'],exp:9999999999});assert.equal(await identity(parts.join('.')),null);}finally{globalThis.fetch=original;}
 });
+
+test('standalone game deployment ignores external platform identity headers',async()=>{assert.equal(await accountIdentity(new Request('https://game.test',{headers:{'oai-authenticated-user-id':'forged'}}),{AUTH_MODE:'game'}),null);});
