@@ -54,9 +54,9 @@ export async function api(req,env){
     if(result)return json({...publicRoom(room,0),token:t},201);
    }return json({error:'방 생성이 지연되고 있습니다. 다시 시도해 주세요.'},503);
   }
-  const match=path.match(/^\/api\/rooms\/([A-HJ-NP-Z2-9]{8})(?:\/(join|action))?$/);if(!match)return json({error:'대전 주소를 확인해 주세요.'},404);
+  const match=path.match(/^\/api\/rooms\/([A-HJ-NP-Z2-9]{8})(?:\/(join|action|close))?$/);if(!match)return json({error:'대전 주소를 확인해 주세요.'},404);
   const object=await env.BUCKET.get(key(match[1]));if(!object)return json({error:'방을 찾을 수 없습니다. 코드를 확인해 주세요.'},404);
-  const room=await object.json();if(room.expiresAt<Date.now())return json({error:'이 방은 만료되었습니다. 새 방을 만들어 주세요.'},410);
+  const room=await object.json();if(room.status==='closed')return json({error:'호스트가 이 방을 종료했습니다. 새로운 접속 주소를 받아 주세요.'},410);if(room.expiresAt<Date.now())return json({error:'이 방은 만료되었습니다. 새 방을 만들어 주세요.'},410);
   const t=req.headers.get('X-Duel-Token')||'';const th=t.length===64?await hash(t):'';const seat=room.host.tokenHash===th?0:room.guest?.tokenHash===th?1:-1;
   if(match[2]==='join'&&req.method==='POST'){
    if(seat>=0){if((seat===0?room.host:room.guest).account!==account)return json({error:'다른 계정의 참가 정보입니다.'},403);return json(await roomResponse(room,seat,env));}if(room.status!=='waiting')return json({error:'이미 두 명이 참가한 방입니다.'},409);
@@ -68,6 +68,14 @@ export async function api(req,env){
    return json({...publicRoom(room,1),token:guestToken});
   }
   if(seat<0||(seat===0?room.host:room.guest).account!==account)return json({error:'이 방의 참가 정보가 없습니다. 방 코드로 입장해 주세요.'},403);
+  if(match[2]==='close'&&req.method==='POST'){
+   if(seat!==0)return json({error:'호스트만 방을 종료할 수 있습니다.'},403);
+   if(room.status!=='waiting')return json({error:'이미 대전이 시작되었습니다. 대전 화면에서 나가기를 선택하세요.'},409);
+   room.status='closed';room.version++;
+   const saved=await env.BUCKET.put(key(room.code),JSON.stringify(room),{onlyIf:{etagMatches:object.etag},httpMetadata:{contentType:'application/json'}});
+   if(!saved)return json({error:'상대가 입장했습니다. 대전 화면을 확인하세요.'},409);
+   return json({closed:true});
+  }
   if(!match[2]&&req.method==='GET')return json(await roomResponse(room,seat,env));
   if(match[2]==='action'&&req.method==='POST'){
    const body=await payload(req);if(body.version!==room.version)return json({error:'대전 상태가 바뀌었습니다. 갱신 후 다시 선택하세요.'},409);

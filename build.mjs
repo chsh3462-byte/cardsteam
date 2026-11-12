@@ -19,7 +19,7 @@ for(const page of manifest){
 }
 if(occupied.size!==300)throw Error('Every card must own a distinct illustration.');
 const css=await read('src/style.css');
-const client=[cards,'const C=CARD_BY_ID;','const ART_ASSETS='+JSON.stringify(artMeta)+';',core,progression,await read('src/pixels.js'),await read('src/card-art.js'),await read('src/client.js'),await read('src/collection-ui.js')].join('\n');
+const client=[cards,'const C=CARD_BY_ID;','const ART_ASSETS='+JSON.stringify(artMeta)+';',core,progression,strip(await read('src/invites.js')),await read('src/pixels.js'),await read('src/card-art.js'),await read('src/client.js'),await read('src/collection-ui.js')].join('\n');
 const html=(await read('src/index.html')).replace('/*STYLE*/',css).replace('/*CLIENT*/',client.replaceAll('</script','<\\/script'));
 const etag='"'+crypto.createHash('sha256').update(html).digest('hex').slice(0,24)+'"';
 const output=[cards,'const C=CARD_BY_ID;',core,progression,identity,server,'const HTML='+JSON.stringify(html)+';','const ART_PAYLOADS='+JSON.stringify(artPayloads)+';',`

@@ -47,3 +47,16 @@ test('atomic purchase, idempotent retries, overspend and stale replay protection
  const {call:call2,env:env2}=harness();await call2('/profile');const row2=[...env2.BUCKET.rows.values()][0],p2=JSON.parse(row2.body);p2.points=10;row2.body=JSON.stringify(p2);
  const races=await Promise.all(['aaaaaaaaaaaaaaaa','bbbbbbbbbbbbbbbb'].map(requestId=>call2('/packs/buy','POST',{type:'normal',requestId,revision:0})));assert.equal(races.filter(x=>x.httpStatus===200).length,1);assert.equal((await call2('/profile')).profile.points,0);
 });
+test('hosting can close before a guest joins, never grants rewards, and cannot close a live duel',async()=>{
+ const {call}=harness(),h=await call('/rooms','POST',{deck});
+ assert.equal((await call('/rooms/'+h.code+'/close','POST',{},null,'B')).httpStatus,403);
+ assert.equal((await call('/rooms/'+h.code+'/close','POST',{},h.token)).closed,true);
+ assert.equal((await call('/rooms/'+h.code+'/join','POST',{deck},null,'B')).httpStatus,410);
+ assert.equal((await call('/profile')).profile.points,0);
+ const next=await call('/rooms','POST',{deck});const g=await call('/rooms/'+next.code+'/join','POST',{deck},null,'B');
+ assert.equal((await call('/rooms/'+next.code+'/close','POST',{},g.token,'B')).httpStatus,403);
+ assert.equal((await call('/rooms/'+next.code+'/close','POST',{},next.token)).httpStatus,409);
+});
+test('simultaneous host close and guest join commit exactly one outcome',async()=>{
+ const {call}=harness(),h=await call('/rooms','POST',{deck});const results=await Promise.all([call('/rooms/'+h.code+'/close','POST',{},h.token),call('/rooms/'+h.code+'/join','POST',{deck},null,'B')]);assert.equal(results.filter(x=>x.httpStatus===200).length,1);assert.equal(results.filter(x=>[409,410].includes(x.httpStatus)).length,1);assert.equal((await call('/profile')).profile.points,0);
+});
