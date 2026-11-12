@@ -40,7 +40,7 @@ export async function api(req,env){
    const origin=req.headers.get('Origin');if(origin&&origin!==new URL(req.url).origin)return json({error:'잘못된 요청 출처입니다.'},403);
    if(!req.headers.get('Content-Type')?.includes('application/json'))return json({error:'JSON 요청만 지원합니다.'},415);
   }
-  const identity=await accountIdentity(req,env);if(!identity)return json({error:'로그인 후 수집과 대전을 이용해 주세요.'},401);
+  const identity=await accountIdentity(req,env);if(!identity)return json({error:'로그인 후 수집과 대전을 이용해 주세요.',signInPath:(!env.AUTH_MODE||env.AUTH_MODE==='sites')?'/signin-with-chatgpt':null},401);
   const account=await hash(identity);
   if(path==='/api/profile'&&req.method==='GET')return json({profile:profileView((await readProfile(env,account)).p)});
   if(path==='/api/packs/open'&&req.method==='POST'){const body=await payload(req);const result=await updateProfile(env,account,p=>openPack(p,body.packId));return json({profile:result.profile,receipt:result.result});}
