@@ -1,0 +1,36 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {CARD_BY_ID as C} from '../src/cards.js';
+import {applyAction,canUnitAttack,unitForce} from '../src/core.js';
+import {cardPlayReason,attackReason,dieCanUse} from '../src/play-help.js';
+import {createPractice,advancePractice} from '../src/practice.js';
+const advance=(p,n)=>{for(let i=0;i<n;i++)p=advancePractice(p);return p;};
+test('guided lesson uses real rules across two owner turns and damages the core only after readiness',()=>{
+ let p=createPractice();assert.equal(p.state.players[0].hand.length,4);
+ p=advancePractice(p);assert.equal(p.state.players[0].hand.length,5);
+ p=advancePractice(p);assert.equal(p.state.players[0].energy,2);
+ p=advance(p,2);let u=p.state.players[0].field[0];
+ assert.equal(unitForce(p.state.players[0],u),10);assert.equal(canUnitAttack(p.state,0,u),false);
+ assert.match(attackReason(p.state,0,u),/소환/);
+ assert.throws(()=>applyAction(p.state,0,{type:'attack',uid:u.uid,target:'core'},()=>0,p.now+3000));
+ p=advance(p,2);assert.equal(p.state.turn,3);assert.equal(p.state.active,0);assert.equal(p.state.players[0].energy,5);
+ assert.equal(p.state.players[0].field[0].slots[0],null);assert.equal(p.state.players[0].field[0].stance,'guard');
+ p=advance(p,3);u=p.state.players[0].field[0];assert.match(attackReason(p.state,0,u),/수호/);
+ p=advancePractice(p);u=p.state.players[0].field[0];assert.equal(attackReason(p.state,0,u),'');assert.equal(canUnitAttack(p.state,0,u),true);
+ p=advancePractice(p);assert.equal(p.state.players[1].hp,90);assert.equal(p.step,11);assert.equal(p.state.players[0].field[0].acted,true);
+ assert.deepEqual(advancePractice(p),p);
+});
+test('help distinguishes preparation timing, missing dice, bound dice and actual play eligibility',()=>{
+ let p=createPractice();assert.match(cardPlayReason(p.state,0,C[1],null),/뽑으세요/);
+ p=advancePractice(p);assert.equal(cardPlayReason(p.state,0,C[1],null),'');
+ assert.match(cardPlayReason(p.state,0,C[151],null),/굴린 뒤/);
+ p=advance(p,2);assert.match(cardPlayReason(p.state,0,C[1],null),/다음 내 턴/);
+ assert.match(cardPlayReason(p.state,0,C[151],null),/주사위 하나를 선택/);
+ assert.equal(cardPlayReason(p.state,0,C[151],0),'');
+ p=advancePractice(p);assert.match(cardPlayReason(p.state,0,C[151],0),/미사용 주사위/);
+ assert.equal(dieCanUse(p.state.players[0].dice[0]),false);
+ p.state.players[0].hand.push({id:151,uid:900});
+ const after=applyAction(p.state,0,{type:'play',uid:900,dieIndex:1,target:'core'},()=>0,p.now+3000);
+ assert.equal(after.players[0].dice[1].spent,true);assert.equal(dieCanUse(after.players[0].dice[1]),false);assert.equal(dieCanUse(after.players[0].dice[1],'spent'),true);
+});
+test('practice instances are independent and never change each other',()=>{const a=createPractice(),b=createPractice(),snapshot=JSON.stringify(b);const finished=advance(a,11);assert.equal(finished.state.players[1].hp,90);assert.equal(JSON.stringify(b),snapshot);assert.equal(a.step,0);assert.equal(a.state.players[0].field.length,0);});
